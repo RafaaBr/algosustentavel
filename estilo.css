@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header{
+    background-color: green;
+    height: 80px;
+    padding: 30px;
+}
+h1{
+    padding: 10px 0 0 30pxpx;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px #111111;
+}
+footer{
+    clear:both;
+    background-color: black;
+    height: 60px;
+    text-align: center;
+    padding: 10px 0 0 0;
+    color: white;
+}
+
+#logo{
+    float:left;
+}
+#menu{
+    float:right;
+    margin-top: 35px;
+}
+#menu a{
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #111111;
+    text-shadow: 1px 1px #111111;
+}
+#menu a:hover{
+    background-color: white;
+
+}
+
+#div_principal{
+    clear:both;
+    background-image: url(casaverde.jpg);
+    background-size: 100%;
+    min-height: 600px;
+    padding: 30px 0 0 0;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.efeito{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+}
