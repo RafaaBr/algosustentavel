@@ -22,12 +22,18 @@ ______          _      _
         <meta charset="utf-8">
         <title>Algo sustentável</title>
         <link rel="stylesheet type="text/css" href="estilo.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        
     </head>
     <body>
         <header>
             <div class="container">
                 <div id="logo">
-                    <p>logo aqui</p>
+                    <img src="logo.png" alt="Logo">
                 </div>
                 <div id="menu">
                     <a href="#">home</a>
@@ -62,8 +68,6 @@ ______          _      _
                         </p>
                     </main>
 
-
-
                     <section id="buttons">
                         <button id="btn1">+ Adicionar ideia</button>
                         <button class="fat">Ver Ideias</button>
@@ -71,28 +75,40 @@ ______          _      _
 
                     
                 </section>
-
-                <section id="ideias">
+                <section class="ideias">
                     <div class="idea">
                         <div class="content">
-                            <h3>Casa Verde</h3>
-                            <div class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et nisi omnis impedit placeat dignissimos qui, corrupti, commodi voluptate consectetur, voluptatibus aliquid ducimus cupiditate doloremque laboriosam perferendis. Temporibus, adipisci deserunt.
-                            </div>
-                            <a href="#">ir para a ideia</a>
-                        </div>
-                    </div>
-
-                    <div class="idea">
-                        <div class="content">
-                            <h3>Plantação vertical</h3>
-                            <div class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et nisi omnis impedit placeat dignissimos qui, corrupti, commodi voluptate consectetur, voluptatibus aliquid ducimus cupiditate doloremque laboriosam perferendis. Temporibus, adipisci deserunt.
-                            </div>
-                            <a href="#">ir para a ideia</a>
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="casaverde.jpg" alt="Imagem de capa do card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Casa verde</h5>
+                                  <p class="card-text">Descrição</p>
+                                  <a href="#" class="btn btn-primary" style="background-color: rgb(14, 255, 14); border: none;">ir para a ideia</a>
+                                </div>
+                              </div>
                         </div>
                     </div>
                 </section> 
+                <section class="ideias">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="casaverde.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                          <h5 class="card-title">Casa verde</h5>
+                          <p class="card-text">Descrição</p>
+                          <a href="#" class="btn btn-primary" style="background-color: rgb(14, 255, 14); border: none;">ir para a ideia</a>
+                        </div>
+                      </div>
+                </section>
+                <section class="ideias">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="casaverde.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                          <h5 class="card-title">Casa verde</h5>
+                          <p class="card-text">Descrição</p>
+                          <a href="#" class="btn btn-primary" style="background-color: rgb(14, 255, 14); border: none;">ir para a ideia</a>
+                        </div>
+                      </div>
+                </section>
             </div>
         <footer>Site em desenvolvimento</footer>
 

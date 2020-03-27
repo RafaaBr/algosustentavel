@@ -7,7 +7,7 @@ h1{
     padding: 10px 0 0 30pxpx;
     font-size: 50px;
     text-align: center;
-    color: white;
+    color: #e5e5e5;
     text-shadow: 1px 1px 1px #111111;
 }
 p{
@@ -18,7 +18,7 @@ a{
     color: #ff5e84;
 }
 body{
-    background-color: #e5e5e5;
+    background-color:#e5e5e5;
 }
 footer{
     height: 60px;
@@ -39,26 +39,33 @@ button:hover{
 }
 #btn1{
     color: #ff5e84;
+    margin-right: 10px;
+    background-color: white;
 }
 button.fat{
     background-color: #ff5e84;
-    color: white;
+    color: #e5e5e5;
     width: 150px;
     height: 40px;
     border-radius: 9px;
     box-shadow: 0px 8px 16px rgba(255, 0, 92, 0.30);
 }
+button.fat:hover{
+    text-decoration: none;
+}
+
 #buttons{
     margin-top: 32px;
     display: flex;
     justify-content: space-evenly;
 }
 
-#logo p{
-    padding: 20px 450px 0 0;
+#logo{
+    padding: 5px 450px 0 0;
+    height: 50px;
 }
 #menu{
-    margin: 20px 0 0px 0px;
+    margin: 50px 0 0 0;
     text-align: right;
 }
 #menu a{
@@ -78,10 +85,10 @@ button.fat{
 }
 
 #info{
-    width: 700px;
+    width: auto;
 }
 
-#ideias{
+.ideias{
     margin: 20px 0 0 20px;
 }
 .container{
@@ -95,7 +102,7 @@ button.fat{
     display: inline-block;
 }
 .faixa{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(43, 255, 0, 0.5);
     padding: 50px;
 }
 .idea{
