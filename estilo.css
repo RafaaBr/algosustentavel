@@ -3,12 +3,6 @@
     padding: 0;
     font-family: Helvetica, Arial, sans-serif;
 }
-
-header{
-    background-color: green;
-    height: 80px;
-    padding: 30px;
-}
 h1{
     padding: 10px 0 0 30pxpx;
     font-size: 50px;
@@ -16,45 +10,94 @@ h1{
     color: white;
     text-shadow: 1px 1px 1px #111111;
 }
+p{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: #ff5e84;
+}
+body{
+    background-color: #e5e5e5;
+}
 footer{
-    clear:both;
-    background-color: black;
     height: 60px;
     text-align: center;
     padding: 10px 0 0 0;
+}
+main{
+    margin: 20px 0 20px 0;
+}
+button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #e5e5e5;
+}
+button:hover{
+    text-decoration: underline;
+}
+#btn1{
+    color: #ff5e84;
+}
+button.fat{
+    background-color: #ff5e84;
     color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 9px;
+    box-shadow: 0px 8px 16px rgba(255, 0, 92, 0.30);
+}
+#buttons{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-#logo{
-    float:left;
+#logo p{
+    padding: 20px 450px 0 0;
 }
 #menu{
-    float:right;
-    margin-top: 35px;
+    margin: 20px 0 0px 0px;
+    text-align: right;
 }
 #menu a{
     padding: 10px 10px;
     text-decoration: none;
     color: #111111;
-    text-shadow: 1px 1px #111111;
+    font-weight: bold;
 }
 #menu a:hover{
-    background-color: white;
+    color: #ff5e84;
 
 }
 
 #div_principal{
-    clear:both;
-    background-image: url(casaverde.jpg);
     background-size: 100%;
-    min-height: 600px;
     padding: 30px 0 0 0;
 }
-.container{
-    width: 960px;
-    margin: 0 auto;
+
+#info{
+    width: 700px;
 }
-.efeito{
+
+#ideias{
+    margin: 20px 0 0 20px;
+}
+.container{
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container #menu{
+    display: inline-block;
+}
+.faixa{
     background-color: rgba(0, 0, 0, 0.5);
     padding: 50px;
+}
+.idea{
+    display: flex;
 }
