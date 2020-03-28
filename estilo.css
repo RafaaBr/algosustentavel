@@ -107,4 +107,8 @@ button.fat:hover{
 }
 .idea{
     display: flex;
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.8);
+}
+.ideias .idea .card .card-body p{
+    font-size: 12px;
 }
