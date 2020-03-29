@@ -1,12 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
 }
 h1{
     padding: 10px 0 0 30pxpx;
     font-size: 50px;
-    text-align: center;
     color: #e5e5e5;
     text-shadow: 1px 1px 1px #111111;
 }
@@ -19,11 +19,6 @@ a{
 }
 body{
     background-color:#e5e5e5;
-}
-footer{
-    height: 60px;
-    text-align: center;
-    padding: 10px 0 0 0;
 }
 main{
     margin: 20px 0 20px 0;
@@ -41,6 +36,9 @@ button:hover{
     color: #ff5e84;
     margin-right: 10px;
     background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
 }
 button.fat{
     background-color: #ff5e84;
@@ -49,6 +47,10 @@ button.fat{
     height: 40px;
     border-radius: 9px;
     box-shadow: 0px 8px 16px rgba(255, 0, 92, 0.30);
+
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
 }
 button.fat:hover{
     text-decoration: none;
@@ -110,5 +112,108 @@ button.fat:hover{
     box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.8);
 }
 .ideias .idea .card .card-body p{
-    font-size: 12px;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+}
+
+/* modal */
+
+#modal {
+    background-color: rgb(146, 243, 146);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 400ms;
+}
+#modal .content h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#modal form {
+    width: 80%;
+    max-width: 800px;
+    
+
+    margin: 0 auto;
+
+    display:grid;
+}
+.input-wrapper{
+    margin: 16px;
+}
+
+form input, 
+form textarea {
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid rgba(146, 243, 146, 0.5);
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 8px;
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.8);
+}
+
+form label {
+    font-weight: 50px;
+    line-height: 18px;
+}
+form a{
+    background-color: white;
+
+
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+
+
+    margin: 15px auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.8);
+    transition: 400ms;
+}
+form a:hover{
+    text-decoration: none;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+form button {
+    background-color: white;
+
+
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+
+    margin: 0 auto;
+    outline: none;
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.8);
+    transition: 400ms;
+}
+
+form button:hover{
+    background-color: rgb(55, 0, 255);
+    color: white;
+    text-decoration: none;
+}
+footer{
+    padding: 22px;
+}
+#modal.hide{
+    opacity: 0;
+    visibility: hidden;
 }
