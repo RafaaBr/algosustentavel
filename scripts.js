@@ -8,7 +8,7 @@ function onOff() {
 
 
 document
-.querySelector("button.fat")
+.querySelector("#button")
 .addEventListener("click", onOff)
 
 

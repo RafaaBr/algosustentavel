@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     outline: none;
+    scroll-behavior: ;
 }
 h1{
     padding: 10px 0 0 30pxpx;
@@ -28,6 +29,7 @@ button{
     outline: none;
     border: none;
     background-color: #e5e5e5;
+    outline: none;
 }
 button:hover{
     text-decoration: underline;
@@ -39,6 +41,7 @@ button:hover{
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 0.1px;
+    outline: none;
 }
 button.fat{
     background-color: #ff5e84;
@@ -55,7 +58,7 @@ button.fat{
 }
 button.fat:hover{
     text-decoration: none;
-    outline: none;
+
 }
 
 #buttons{
@@ -146,7 +149,7 @@ button.fat:hover{
 
     margin: 0 auto;
 
-    display:grid;
+
 }
 .input-wrapper{
     margin: 16px;
