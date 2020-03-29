@@ -51,15 +51,18 @@ button.fat{
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 0.1px;
+    outline: none;
 }
 button.fat:hover{
     text-decoration: none;
+    outline: none;
 }
 
 #buttons{
     margin-top: 32px;
     display: flex;
     justify-content: space-evenly;
+    outline: none;
 }
 
 #logo{
@@ -209,6 +212,7 @@ form button:hover{
     background-color: rgb(55, 0, 255);
     color: white;
     text-decoration: none;
+    outline: none;
 }
 footer{
     padding: 22px;
