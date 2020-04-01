@@ -58,23 +58,19 @@ button.fat{
 }
 button.fat:hover{
     text-decoration: none;
-
 }
 
 #buttons{
     margin-top: 32px;
-    display: flex;
     justify-content: space-evenly;
     outline: none;
+    display: flex;
 }
-
 #logo{
-    padding: 5px 450px 0 0;
-    height: 50px;
+    margin: 15px 0 0 0;
 }
 #menu{
     margin: 50px 0 0 0;
-    text-align: right;
 }
 #menu a{
     padding: 10px 10px;
@@ -84,7 +80,6 @@ button.fat:hover{
 }
 #menu a:hover{
     color: #ff5e84;
-
 }
 
 #div_principal{
@@ -101,20 +96,17 @@ button.fat:hover{
 }
 .container{
     width: 80%;
-    max-width: 960px;
+    padding-right: 15px;
+    padding-left: 15px;
     margin: 0 auto;
     display: flex;
 }
 
-.container #menu{
-    display: inline-block;
-}
 .faixa{
     background-color: rgba(43, 255, 0, 0.5);
-    padding: 50px;
+    padding: 250px;
 }
 .idea{
-    display: flex;
     box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.8);
 }
 .ideias .idea .card .card-body p{
@@ -131,8 +123,6 @@ button.fat:hover{
     bottom: 0;
     right: 0;
     left: 0;
-
-    display: flex;
     align-items: center;
     justify-content: center;
     transition: 400ms;
@@ -140,16 +130,13 @@ button.fat:hover{
 #modal .content h1{
     text-align: center;
     text-transform: uppercase;
+    margin-top: 30px;
 }
 
 #modal form {
     width: 80%;
-    max-width: 800px;
-    
-
+    max-width: 800px; 
     margin: 0 auto;
-
-
 }
 .input-wrapper{
     margin: 16px;
