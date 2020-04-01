@@ -69,12 +69,11 @@ button.fat:hover{
 }
 
 #logo{
-
+    margin-top: 10px;
     height: 50px;
 }
 #menu{
     margin: 50px 0 0 0;
-    text-align: right;
 }
 #menu a{
     padding: 10px 10px;
@@ -108,7 +107,8 @@ button.fat:hover{
 }
 
 .container #menu{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
 }
 .faixa{
     background-color: rgba(43, 255, 0, 0.5);
