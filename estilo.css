@@ -119,7 +119,7 @@ button.fat:hover{
 
 #modal {
     background-color: rgb(146, 243, 146);
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     right: 0;
