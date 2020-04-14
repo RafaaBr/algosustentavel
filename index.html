@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/idea.css">
 
     <link rel="icon" href="https://image.flaticon.com/icons/svg/1086/1086970.svg">
     <title>Algo sustentável</title>
 </head>
-<body id="app">
+<body>
     <header class="header" id="header-id">
         <!-- Logo temporária apenas para melhor estilização do header design -->
         <img class="logo" src="https://image.flaticon.com/icons/svg/1086/1086970.svg" alt="Imagem da logo" draggable="false">
@@ -23,7 +23,6 @@
             <a href="#">Ideias</a>
         </nav>
     </header>
-
     <main id="main-id">
         <section class="carousel" id="session-carousel">
             <h2>Carousel</h2>
@@ -34,45 +33,33 @@
                 <div class="information">
                     <p>Utilize esse espaço para ajudar com ideias, ou aprender novas ideias.</p>
                     <div id="buttons">
-                        <button class="add" id="add-idea">+ Adicionar ideia</button>
+                        <button class="add-idea" id="add-idea">+ Adicionar ideia</button>
                         <button class="see-idea" id="see-idea">Ver Ideias</button>
                     </div>
                 </div>
-                <!-- Imagem de card provisória -->
-                <img class="card-image" src="https://image.flaticon.com/icons/svg/683/683529.svg" alt="Imagem do card">
-                <div class="card-body">
-                    <h5 class="card-title">Casa verde</h5>
-                    <p class="card-text">Descrição</p>
-                    <a href="#">ir para a ideia</a>
-                </div>
-            </div>
-        </section> 
-    </main>
-    <!-- Modal -->
-    <div id="modal" class="hide">
-        <div class="content">
-            <h1>Nova Ideia</h1>
-            <form action="">
-                <div class="input-wrapper">
+            </div>d
+        </section>
+        <div id="pop-up-add-idea" class="hide">
+            <div class="pop-up-add-idea-content">
+                <h1>Nova Ideia</h1>
+                <form action="">
                     <label for="title">Título da Ideia</label>
                     <input type="text" name="title">
-                </div>
-            
-                <div class="input-wrapper">
-                    <label for="description">Digite uma descrição para essa ideia</label>
-                    <textarea name="description" id="" cols="30" rows="5"></textarea>
-                </div>
-            
-                <div class="input-wrapper">
+
+                    <label for="description">Escrevar sobre a sua ideia</label>
+                    <textarea name="description" id="" cols="30" rows="5" autocomplete="off"></textarea>
+                    
                     <label for="image">Link da imagem</label>
                     <input type="url" name="image">
-                </div>
-                <button>Salvar</button>
-                <a href="#" onclick="onOff()">Voltar</a>
-            </form>
+                    <div class="pop-up-buttons">
+                        <button id="comeback">Voltar</button>
+                        <button>Salvar</button>
+                    </div>
+                </form>
+            </div>
         </div>
-    </div>
-
-    <script src="js/scripts.js"></script>
+    </main>
+    <script src="js/script.js"></script>
+    <script src="js/buttons.js"></script>
 </body>
 </html>
