@@ -4,9 +4,6 @@ function onOff() {
         .classList
         .toggle("hide")
 }
-        
-
-
 document
 .querySelector("#button")
 .addEventListener("click", onOff)
