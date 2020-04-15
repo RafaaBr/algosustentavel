@@ -12,6 +12,3 @@ buttons.addIdea.onclick = () => {
 buttons.comeback.onclick = () => {
     hidden()
 }
-
-
-
