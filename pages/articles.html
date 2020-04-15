@@ -13,7 +13,10 @@
 <body>
     <header class="header" id="header-id">
         <!-- Logo temporária apenas para melhor estilização do header design -->
+
+        <a href="../index.html">
         <img class="logo" src="https://image.flaticon.com/icons/svg/1086/1086970.svg" alt="Imagem da logo" draggable="false">
+        </a>
         <nav class="navegation">
             <a href="../index.html">Home</a>
             <a id="here" href="#" >Artigos</a>
@@ -21,7 +24,9 @@
         </nav>
     </header>
     <main class="main" id="main-id">
-        <section id="left">
+
+        <!--LEFT-->
+        <section class="left" id="left-id">
             <p>Pesquise uma ideia aqui</p>
             <input type="text" name="txt-search">
             <button id="btn-search">Pesquisar</button>
@@ -29,9 +34,35 @@
                 <p>Mais acessados</p>
             </section>
         </section>
-        <section id="right">
-            <p>Ultimas ideias</p>
-        </section>
+
+        <!--RIGHT-->
+        <div class="right" id="right-id">
+            <h1>Ultimas ideias</h1>
+            <div class="idea">
+                <section class="card">
+                    <img src="https://image.flaticon.com/icons/svg/1598/1598238.svg" alt="world-icon">
+                    <div class="content">
+                        <h3 class="name" id="name1">Mundo verde</h3>
+                        <div class="description" id="description1">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla enim est, egestas id luctus ac, commodo id dolor. Vivamus nec mattis magna, ac sagittis mauris. Duis sollicitudin sit amet ante sed vehicula. Fusce congue, dui et iaculis sodales, elit turpis posuere est, at varius orci tortor vel ex. Mauris ornare lectus et facilisis ultricies. Maecenas gravida tincidunt sem. Nullam eget est vel felis lacinia tempus. Nulla facilisi. Aenean eget purus vel felis sagittis fringilla tincidunt at risus. Curabitur ut convallis ligula. Aliquam vel volutpat nunc. Mauris egestas fermentum metus, in maximus ante volutpat vitae. Duis varius libero ante, volutpat fermentum quam tempus et.</p>
+                        </div>
+                        <a href="#">Ver ideia</a>
+                    </div>
+                </section>
+            </div>
+            <div class="idea">
+                <section class="card">
+                    <img src="https://image.flaticon.com/icons/svg/1598/1598238.svg" alt="world-icon">
+                    <div class="content">
+                        <h3 class="name" id="name1">Mundo verde</h3>
+                        <div class="description" id="description1">
+                            <p>Cras urna quam, gravida et cursus eu, convallis sed justo. Nulla blandit posuere erat id euismod. Duis non lacus facilisis, lobortis mi sit amet, dapibus nisl. Mauris non felis suscipit, faucibus quam sed, faucibus leo. Maecenas congue volutpat sapien, nec tincidunt ante ullamcorper ut. Aliquam aliquet lobortis vestibulum. Curabitur ac aliquet magna, vel elementum libero. Aenean id urna velit.</p>
+                        </div>
+                        <a href="#">Ver ideia</a>
+                    </div>
+                </section>
+            </div>
+        </div>
     </main>
 </body>
 </html>

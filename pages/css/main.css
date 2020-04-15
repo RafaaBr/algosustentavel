@@ -8,16 +8,16 @@
 }
 
 /*Left*/
-#main-id #left{
+#main-id #left-id{
     text-align: center;
 }
 
-#main-id #left p{
+#main-id #left-id p{
     padding-bottom: 8px;
     
 }
 
-#main-id #left input{
+#main-id #left-id input{
     border-radius: 6px;
     border: none;
     outline: none;
@@ -27,7 +27,7 @@
     box-shadow: 0 0px 16px -8px rgba(0, 0, 0, 0.5);
     margin-bottom: 10px;
 }
-#main-id #left #btn-search{
+#main-id #left-id #btn-search{
     background-color: #099ec8;
     padding: 8px;
     border-radius: 15px;
@@ -39,7 +39,7 @@
     box-shadow: 0 0px 16px -8px rgba(0, 0, 0, 0.5);
 }
 
-#main-id #left #hot-acess{
+#main-id #left-id #hot-acess{
     padding-top: 10%;
 }
 
@@ -48,6 +48,45 @@
 
 
 /*right*/
-#main-id #right{
+#main-id #right-id h1{
     font-size: 20px;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+
+}
+/*card*/
+#main-id #right-id .card{
+    display: flex;
+    padding: 20px 0;
+    background-color: rgb(86, 250, 174);
+    margin: 7px;
+    border-radius: 20px;
+    width: 80%;
+    box-shadow: 0 0px 16px -8px rgba(0, 0, 0, 0.3);
+}
+#main-id #right-id .idea .card h3{
+    padding: 0 0 0 2px;
+}
+#main-id #right-id .idea .card img{
+    width: 100px;
+    height: 100px;
+    margin: 0px 22px;
+}
+
+#main-id #right-id .card .description{
+    margin: 22px 0;
+}
+
+#main-id #right-id .card a{
+    text-decoration: none;
+    margin: 0px 12px;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 0px 16px -8px rgba(0, 0, 0, 0.3);
+
+    background-color: red;
+    color: white;
+}
+#main-id #right-id .card a:hover{
+    transition: 0.2s;
 }
