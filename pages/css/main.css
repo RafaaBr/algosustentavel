@@ -25,7 +25,7 @@
     box-sizing: border-box;
     padding: 10px;
     box-shadow: 0 0px 16px -8px rgba(0, 0, 0, 0.5);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 #main-id #left #btn-search{
     background-color: #099ec8;
