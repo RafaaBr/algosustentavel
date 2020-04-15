@@ -1,3 +1,5 @@
-const autoComplete = document.querySelector('#pop-up-add-idea input')
+const autoComplete = document.querySelector('#pop-up-add-idea form input')
 
-autoComplete.setAttribute('autocomplete', 'off')
+(function complete () {
+    autoComplete.setAttribute('autocomplete', 'off')
+})()
