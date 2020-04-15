@@ -2,7 +2,7 @@
 
 Isso é um projeto da faculdade onde o tema é sustentabilidade.
 
-### Estilos de código
+### Boas práticas
 
 > HTML
   - Não duplicar código
