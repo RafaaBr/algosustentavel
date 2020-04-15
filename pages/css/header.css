@@ -9,6 +9,7 @@
     height: 80px;
     padding: 0 100px;
     overflow: hidden;
+    margin-bottom: 50px;
 }
 
 #header-id .logo {
@@ -47,4 +48,8 @@
     padding: 15px;
     border-radius: 8px;
     transition: .2s;
+}
+
+#header-id .navegation a#here{
+    background-color: rgba(0, 0, 0, 0.06);
 }
