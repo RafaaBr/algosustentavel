@@ -1,6 +1,6 @@
 #header-id {
     display: grid;
-    background-color: #099ec8;
+    background-color: rgba(2, 165, 119, 1);
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
@@ -20,12 +20,12 @@
 }
 
 #header-id .logo:hover {
-     transform: translateY(-2px);
-    }
+    transform: translateY(2px);
+}
     
 .navegation a:hover {
-    background-color: rgba(0, 0, 0, 0.03);
-    transform: translateY(-2px);
+    background-color: rgba(0, 0, 0, 0.02);
+    transform: translateY(2px);
 }
 
 #header-id .navegation {
@@ -50,6 +50,6 @@
     transition: .2s;
 }
 
-#header-id .navegation a#here{
-    background-color: rgba(0, 0, 0, 0.06);
+#header-id .navegation #article-id {
+    background-color: rgba(0, 0, 0, 0.02);
 }
