@@ -1,6 +1,6 @@
 #header-id {
     display: grid;
-    background-color: #099ec8;
+    background-color: rgba(2, 165, 119, 1);
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@
     }
     
 .navegation a:hover {
-    background-color: rgba(0, 0, 0, 0.03);
+    background-color: rgba(2, 165, 119, .3);
     transform: translateY(-2px);
 }
 
