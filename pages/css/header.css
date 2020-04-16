@@ -9,7 +9,6 @@
     height: 80px;
     padding: 0 100px;
     overflow: hidden;
-    margin-bottom: 50px;
 }
 
 #header-id .logo {
@@ -20,8 +19,8 @@
 }
 
 #header-id .logo:hover {
-    transform: translateY(2px);
-}
+     transform: translateY(2px);
+    }
     
 .navegation a:hover {
     background-color: rgba(0, 0, 0, 0.02);
@@ -34,7 +33,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
     align-items: center;
-    height: 100%;
     padding: 0;
 }
 
@@ -50,6 +48,6 @@
     transition: .2s;
 }
 
-#header-id .navegation #article-id {
-    background-color: rgba(0, 0, 0, 0.02);
+#header-id #backhome{
+    width: 11%;
 }
