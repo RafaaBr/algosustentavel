@@ -19,8 +19,8 @@
 }
 
 #header-id .logo:hover {
-     transform: translateY(2px);
-    }
+    transform: translateY(2px);
+}
     
 .navegation a:hover {
     background-color: rgba(0, 0, 0, 0.02);
@@ -48,6 +48,6 @@
     transition: .2s;
 }
 
-#header-id #backhome{
-    width: 11%;
+#header-id #backhome {
+    width: 0%; /* 0% resolve o problema do click de home na logo, sem ficar poluído e confuso no console de desenvolvimento do navegador */
 }
