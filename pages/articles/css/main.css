@@ -1,0 +1,21 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main .card-idea {
+    margin: 20px;
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.1);
+}
+
+.main .card-idea .card .btn.btn-primary {
+    background-color: #18D9A2;
+    border: 0px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.main .card-idea .card .btn.btn-primary:hover {
+    transform: translateY(-2px);
+    background-color: #04BF8A;
+}

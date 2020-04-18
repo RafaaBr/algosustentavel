@@ -8,18 +8,22 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     
-    <title>Algo Sustentável - Artigos</title>
+    <title>Algo Sustentável - Ideias</title>
 </head>
 <body>
     <header class="header" id="header-id">
         <!-- Logo temporária apenas para melhor estilização do header design -->
-        <a href="../index.html" id ="backhome">
+        <a href="../../index.html" id ="backhome">
             <img id="logo-id" class="logo" src="https://image.flaticon.com/icons/svg/1086/1086970.svg" alt="Imagem da logo" draggable="false">
         </a>
         <nav class="navegation">
-            <a href="../index.html">Home</a>
-            <a id="article-id" href="#">Artigos</a>
+            <a href="../../index.html">Home</a>
+            <a id="article-id" href="../articles/articles.html">Artigos</a>
             <a href="#">Ideias</a>
         </nav>
     </header>
@@ -27,11 +31,18 @@
     <main class="main" id="main-id">
         <!--    Left    -->
         <section class="left" id="left-id">
-            <p>Pesquise uma ideia aqui</p>
+            <p id="pPesquise">Pesquise uma ideia aqui</p>
             <input type="search" name="txt-search">
             <button id="btn-search">Pesquisar</button>
             <section id="hot-acess">
-                <p>Mais acessados</p>
+                <p id="pacess">Mais acessados</p>
+                <ul id="list-group" class="list-group">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                  </ul>
             </section>
         </section>
 
