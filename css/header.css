@@ -22,13 +22,18 @@
     cursor: pointer;
     transition: .2s;
     justify-self: center;
-}   
+}
+
+.github {
+    position: relative;
+    left: 0;
+}
 
 .logo:hover, .github:hover {
     transform: translateY(2px);
 }
 
-.navegation a {
+.navegation .nav-text {
     color: rgba(0, 0, 0, 0.8);
     font-weight: bold;
     font-size: 12px;
@@ -39,7 +44,7 @@
     margin: 0 20px
 }
 
-.navegation a:hover {
+.navegation .nav-text:hover {
     color: #18D9A2;
     transform: translateY(1px);
     text-decoration: none;
@@ -51,9 +56,16 @@
         grid-gap: 5px;
         padding: 0 5px;
     }
+}
 
-    .navegation a {
-        margin: 10px;
-        padding: 5px;
+@media only screen and (max-width: 425px) {
+    .navegation {
+        display: grid;
+        grid-gap: 5px;
+        padding: 0 5px;
+    }
+
+    .navegation .nav-text {
+        margin: 0;
     }
 }
