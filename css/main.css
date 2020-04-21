@@ -1,16 +1,8 @@
-#main-id .carousel {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #fff;
-    height: 100vh;
-}
-
 #main-id .idea {
     position: relative;
     background-color: #e5e5e5;
     color: #fff;
+    margin: 50px 100px;
 }
 
 #main-id .idea h2 {

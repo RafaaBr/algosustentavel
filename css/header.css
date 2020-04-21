@@ -39,7 +39,7 @@
     font-size: 12px;
     text-decoration: none;
     text-align: center;
-    padding: 15px;
+    padding: 31px 15px;
     transition: .2s;
     margin: 0 20px
 }
@@ -48,11 +48,6 @@
     color: #18D9A2;
     transform: translateY(1px);
     text-decoration: none;
-}
-
-#header-id .navegation a img {
-    padding: 0;
-    margin: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -72,10 +67,5 @@
 
     .navegation .nav-text {
         margin: 0;
-    }
-    
-    #header-id .navegation a img {
-        padding: 0;
-        margin: 0;
-    }
+    }   
 }
