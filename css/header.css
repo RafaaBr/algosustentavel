@@ -50,6 +50,11 @@
     text-decoration: none;
 }
 
+#header-id .navegation a img {
+    padding: 0;
+    margin: 0;
+}
+
 @media only screen and (max-width: 600px) {
     .navegation {
         display: grid;
@@ -66,6 +71,11 @@
     }
 
     .navegation .nav-text {
+        margin: 0;
+    }
+    
+    #header-id .navegation a img {
+        padding: 0;
         margin: 0;
     }
 }
