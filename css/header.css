@@ -28,11 +28,6 @@
     transform: translateY(2px);
 }
 
-.navegation a img {
-    padding: 0;
-    margin: 0;
-}
-
 .navegation a {
     color: rgba(0, 0, 0, 0.8);
     font-weight: bold;
@@ -50,6 +45,11 @@
     text-decoration: none;
 }
 
+#header-id .navegation a img {
+    padding: 0;
+    margin: 0;
+}
+
 @media only screen and (max-width: 600px) {
     .navegation {
         display: grid;
@@ -62,7 +62,7 @@
         padding: 5px;
     }
     
-    .navegation a img {
+    #header-id .navegation a img {
         padding: 0;
         margin: 0;
     }
