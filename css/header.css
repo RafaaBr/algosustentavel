@@ -1,50 +1,57 @@
 #header-id {
+    display: flex;
+    box-sizing: border-box;
+    height: 80px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.navegation {
+    position: relative;
     display: grid;
-    background-color: rgba(2, 165, 119, 1);
-    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
-    width: 100%;
-    height: 80px;
-    padding: 0 100px;
-    overflow: hidden;
+    margin: 0 100px;
 }
 
-#header-id .logo {
+.logo, .github {
     width: 50px;
-    margin: 0 10px;
     cursor: pointer;
     transition: .2s;
-}
+    justify-self: center;
+}   
 
-#header-id .logo:hover {
-     transform: translateY(2px);
-    }
-    
-.navegation a:hover {
-    background-color: rgba(0, 0, 0, 0.02);
+.logo:hover, .github:hover {
     transform: translateY(2px);
 }
 
-#header-id .navegation {
-    display: grid;
-    position: relative;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
-    align-items: center;
-    height: 100%;
-    padding: 0;
-}
-
-#header-id .navegation a {
-    display: inline;
-    color: #fff;
+.navegation a {
+    color: rgba(0, 0, 0, 0.8);
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     text-decoration: none;
     text-align: center;
     padding: 15px;
-    border-radius: 8px;
     transition: .2s;
+    margin: 0 20px
+}
+
+.navegation a:hover {
+    color: #18D9A2;
+    transform: translateY(1px);
+}
+
+@media only screen and (max-width: 600px) {
+    .navegation {
+        display: grid;
+        grid-gap: 5px;
+        padding: 0 5px;
+    }
+
+    .navegation a {
+        margin: 10px;
+        padding: 5px;
+    }
 }
