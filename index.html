@@ -14,47 +14,46 @@
     <title>Algo sustentável</title>
 </head>
 <body>
-    <header class="header" id="header-id">
-        <nav class="navegation">
+    <div class="container">
+        <header class="header" id="header-id">
+            <nav class="navegation">
             <img title="Ínicio" class="logo" id="logo-id" src="img/home-image.svg" alt="Imagem da logo" draggable="false">
             <a href="pages/articles/articles.html" class="nav-text">Artigos</a>
             <a href="pages/ideias/ideias.html" class="nav-text">Ideias</a>
             <img title="Desenvolvedores" class="github" id="devs" src="img/github-image.svg">
         </nav>
-    </header>
-    <main id="main-id">
-        <section class="idea" id="session-idea">
-            <h2>Ideias</h2>
-            <div class="card-idea">
+        </header>
+        <main id="main-id">
+            <section class="homepage" id="homepage-id">
                 <div class="information">
-                    <p>Utilize esse espaço para ajudar com ideias, ou aprender novas ideias.</p>
-                    <div id="buttons">
-                        <button class="add-idea" id="add-idea">+ Adicionar ideia</button>
-                        <button class="see-idea" id="see-idea">Ver Ideias</button>
-                    </div>
+                    <p>Oferecemos diversos tipos de ideias sobre sustentabilidade.</p>
+                    <p>Quer saber como funciona?</p>
+                    <button class="more" id="more-id">Saiba mais</button>
                 </div>
-            </div>d
-        </section>
-        <div id="pop-up-add-idea" class="hide">
-            <div class="pop-up-add-idea-content">
-                <h1>Nova Ideia</h1>
-                <form action="">
-                    <label for="title">Título da Ideia</label>
-                    <input type="text" name="title">
+                <img src="https://image.flaticon.com/icons/svg/2843/2843364.svg" alt="">
+            </section>
+            
+            <div id="pop-up-add-idea" class="hide">
+                <div class="pop-up-add-idea-content">
+                    <h1>Nova Ideia</h1>
+                    <form action="">
+                        <label for="title">Título da Ideia</label>
+                        <input type="text" name="title">
 
-                    <label for="description">Escreva sobre a sua ideia</label>
-                    <textarea name="description" id="" cols="30" rows="5" autocomplete="off"></textarea>
-                    
-                    <label for="image">Link da imagem</label>
-                    <input type="url" name="image">
-                    <div class="pop-up-buttons">
-                        <button id="comeback">Voltar</button>
-                        <button>Salvar</button>
-                    </div>
-                </form>
+                        <label for="description">Escreva sobre a sua ideia</label>
+                        <textarea name="description" id="" cols="30" rows="5" autocomplete="off"></textarea>
+                        
+                        <label for="image">Link da imagem</label>
+                        <input type="url" name="image">
+                        <div class="pop-up-buttons">
+                            <button id="comeback">Voltar</button>
+                            <button>Salvar</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>
-    </main>
+        </main>
+    </div>
     <script type="module" src="js/home.js"></script>
 </body>
 </html>

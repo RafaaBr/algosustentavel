@@ -5,6 +5,7 @@
     overflow: hidden;
     justify-content: center;
     box-shadow: 0px 5px 5px -8px rgba(0, 0, 0, 1);
+    background: #fff;
 }
 
 .navegation {
@@ -30,10 +31,10 @@
 }
 
 .logo:hover, .github:hover {
-    transform: translateY(2px);
+    transform: translateY(1px);
 }
 
-.navegation .nav-text {
+.nav-text {
     color: rgba(0, 0, 0, 0.8);
     font-weight: bold;
     font-size: 12px;
@@ -44,7 +45,7 @@
     margin: 0 20px
 }
 
-.navegation .nav-text:hover {
+.nav-text:hover {
     color: #18D9A2;
     transform: translateY(1px);
     text-decoration: none;
@@ -65,7 +66,7 @@
         padding: 0 5px;
     }
 
-    .navegation .nav-text {
+    .nav-text {
         margin: 0;
     }   
 }
