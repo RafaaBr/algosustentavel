@@ -20,3 +20,23 @@
     transform: translateY(-2px);
     background-color: #04BF8A;
 }
+
+@media only screen and (max-width: 1024px) {
+    .main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 715px) {
+    .main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: 50px 100px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .main {
+        margin: 50px;
+    }
+}
