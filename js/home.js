@@ -4,11 +4,6 @@ const homeDocuments = {
     home: document.getElementById('logo-id')
 }
 
-export function github () {
-    document.getElementById('devs').onclick = () => window.location.href = 'https://github.com/RafaaBr/algosustentavel/contributors'
-}
-github()
-
 export function home () {
     homeDocuments.home.onclick = () => window.location.href = '../../index.html'
 }
